@@ -1,21 +1,30 @@
 # ReturnToElixir
 
-**TODO: Add description**
+This is a project made to resume my studies on the Elixir language.
+Most cases will be extremely redundant in the context of the language, but it's my project so I do what I want.
 
-## Installation
+## Functions
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `return_to_elixir` to your list of dependencies in `mix.exs`:
+* ### ReturnToElixir.add/2
+This function returns the sum of two given numbers.
 
-```elixir
-def deps do
-  [
-    {:return_to_elixir, "~> 0.1.0"}
-  ]
-end
-```
+    iex> ReturnToElixir.add(1,2)
+	  3
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/return_to_elixir](https://hexdocs.pm/return_to_elixir).
+* ### ReturnToElixir.subtract/2
+This function returns the diference between two given numbers.
 
+    iex> ReturnToElixir.subtract(2,1)
+    1
+
+* ### ReturnToElixir.multiply/2
+This function returns the product between two given numbers.
+
+    iex> ReturnToElixir.multiply(2,2)
+    4
+
+* ### ReturnToElixir.divide/2
+This function returns the quotient between two given numbers.
+
+    iex> ReturnToElixir.divide(9,3)
+    3
